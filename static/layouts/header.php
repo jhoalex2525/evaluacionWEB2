@@ -18,7 +18,7 @@
         <nav class="navbar sticky-top navbar-light bg-light mb-5">
             <div class="container-fluid">
                 <div>
-                    <a class="navbar-brand" href="#">Portafolio</a>
+                    <a class="navbar-brand" href="#">Portafolio: Jhonatan Ossa</a>
                 </div>
                 <div>
                     <a class="navbar-brand" href="#">Área Personal</a>

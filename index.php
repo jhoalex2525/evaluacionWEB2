@@ -6,7 +6,7 @@
             <div class="card-body">
               <h5 class="card-title" id="titulo1">Área Personal</h5>
               <p class="card-text">Aquí podrás encontrar toda la información personal sobre mi: Hobbies, gustos, entre otros </p>
-              <a href="#" class="btn btn-dark">Ver mas</a>
+              <a href="pages/personal_area.php" class="btn btn-dark">Ver mas</a>
             </div>
           </div>
         </div>
@@ -30,5 +30,5 @@
             </div>
           </div>
         </div>     
-      </div>
+    </div>
 <?php include_once("static/layouts/footer.php");?>

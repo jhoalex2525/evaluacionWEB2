@@ -2,9 +2,9 @@
 <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
           <div class="card h-100">
-            <img src="../img/foto4.jpg" class="card-img-top photoindex" alt="foto4" id="foto4">
+            <img src="../img/foto11.jpg" class="card-img-top photoindex" alt="foto4" id="foto4">
             <div class="card-body">
-              <h5 class="card-title" id="titulo4">Nacimiento</h5>
+              <h5 class="card-title" id="titulo4">Auxiliar Ingeniero de Diseño y Presupuesto</h5>
               <p class="card-text">Jhonatan Alexis Ossa Osorio, nacido en la ciudad de Bucaramanga del departamento de Santander el 14 de Junio de 1989.</p>              
             </div>
           </div>
