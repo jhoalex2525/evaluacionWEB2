@@ -62,6 +62,15 @@
               <p class="card-text">Actualmente se encuentra cursando su tercer semestre de la Técnica Laboral como Asistente en Desarrollo de Software en CESDE.</p>
             </div>
           </div>
+        </div>      
+        <div class="col">
+          <div class="card h-100">
+          <iframe class="card-img-top" src="https://www.youtube.com/embed/AaAwNrNrEII" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="card-body">
+              <h5 class="card-title" id="titulo7">Coro de Voces Oscuras de Medellín</h5>
+              <p class="card-text">Desde Octubre de 2018 ingresa al coro masculino Coro de Voces Oscuras de Medellín, en el cual inicia como corista Tenor segundo y actualmente como Tenor Primero.</p>
+            </div>
+          </div>
         </div>              
     </div>
 <?php include_once("../static/layouts/footer.php"); ?>
