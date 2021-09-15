@@ -1,0 +1,5 @@
+/* Editar recorte de imagen en cards, scale-down ajusta el contenido en vez de estirar */
+.card-img-top {    
+    height: 50vh;
+    object-fit: scale-down;
+}
