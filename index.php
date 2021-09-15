@@ -26,7 +26,7 @@
             <div class="card-body">
               <h5 class="card-title" id="titulo3">Artista Favorito</h5>
               <p class="card-text">Aquí podrás encontrar el top de canciones de mi artista favorito y podrás escuchar un poco de su trabajo</p>
-              <a href="#" class="btn btn-dark">Ver mas</a>
+              <a href="pages/artist.php" class="btn btn-dark">Ver mas</a>
             </div>
           </div>
         </div>     

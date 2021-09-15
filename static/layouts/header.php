@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portafolio: Jhonatan Ossa</title>
     
     <!-- Custom CSS-->
     <link rel="stylesheet" href="/evaluacionWEB2/evaluacionWEB2/static/css/styles.css">
@@ -23,7 +23,7 @@
                 <div>
                     <a class="navbar-brand" href="/evaluacionWEB2/evaluacionWEB2/pages/personal_area.php">Área Personal</a>
                     <a class="navbar-brand" href="/evaluacionWEB2/evaluacionWEB2/pages/professional_area.php">Área Profesional</a>
-                    <a class="navbar-brand" href="#">Artista Favorito</a>
+                    <a class="navbar-brand" href="/evaluacionWEB2/evaluacionWEB2/pages/artist.php">Artista Favorito</a>
                 </div>
             </div>
         </nav>
