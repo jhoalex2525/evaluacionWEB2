@@ -71,12 +71,16 @@ function pintarDatos(datos){
         //Creo una img
         let imagen=document.createElement("img")
         imagen.classList.add("d-block")
-        imagen.classList.add("w-100")
+        imagen.classList.add("w-50")
+        imagen.classList.add("mx-auto")
         imagen.src=cancion.album.images[0].url
         
         //Creo un audio
         let audio=document.createElement("audio")
-        audio.classList.add("w-100")
+        audio.classList.add("w-50")
+        audio.classList.add("mt-5")
+        audio.classList.add("d-block")
+        audio.classList.add("mx-auto")
         audio.src=cancion.preview_url
         audio.setAttribute("controls","controls")
 
@@ -87,12 +91,26 @@ function pintarDatos(datos){
         caption.classList.add("d-none")  
         caption.classList.add("d-md-block")  
         
-        //Creo un título
-        let titulo=document.createElement("h5")        
+        //Creo un título de canción
+        let titulo=document.createElement("h5")   
         titulo.textContent=cancion.name
+        titulo.classList.add("bg-black")          
+        titulo.classList.add("w-25")  
+        titulo.classList.add("d-block")
+        titulo.classList.add("mx-auto")
+
+        //Creo un título para popularidad
+        let titulo2=document.createElement("h5")   
+        titulo2.classList.add("mb-3")  
+        titulo2.classList.add("bg-black")          
+        titulo2.classList.add("w-25")  
+        titulo2.classList.add("d-block")
+        titulo2.classList.add("mx-auto")        
+        titulo2.textContent=cancion.popularity
 
         //PADRES E HIJOS de adentro hacia afuera        
         caption.appendChild(titulo)
+        caption.appendChild(titulo2)
         item.appendChild(caption)
         item.appendChild(imagen)
         item.appendChild(audio)        
