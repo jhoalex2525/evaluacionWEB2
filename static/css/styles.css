@@ -8,3 +8,30 @@
 .progress{
     margin-bottom: 5px;
 }
+
+/* Diseño estrellas */
+.stars-outer {
+    display: inline-block;
+    position: relative;
+    font-family: Material Icons;
+    font-size: 48px;
+}
+   
+.stars-outer::before {
+    content: "\f06f \f06f \f06f \f06f \f06f";
+}
+   
+.stars-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    font-size: 48px;
+}
+   
+.stars-inner::before {
+    content: "\e838 \e838 \e838 \e838 \e838";
+    color: #f8ce0b;
+}

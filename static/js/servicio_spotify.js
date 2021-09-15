@@ -98,22 +98,25 @@ function pintarDatos(datos){
         titulo.classList.add("w-25")  
         titulo.classList.add("d-block")
         titulo.classList.add("mx-auto")
+        titulo.classList.add("mb-5")  
 
-        //Creo un título para popularidad
-        let titulo2=document.createElement("h5")   
-        titulo2.classList.add("mb-3")  
-        titulo2.classList.add("bg-black")          
-        titulo2.classList.add("w-25")  
-        titulo2.classList.add("d-block")
-        titulo2.classList.add("mx-auto")        
-        titulo2.textContent=cancion.popularity
+        //Creo estructura estrellas llena primer div
+        let estrellallena=document.createElement("div")
+        estrellallena.classList.add("stars-outer")
+        estrellallena.classList.add("mx-auto")
+
+        //Creo estructura estrellas vacia primer div
+        let estrellavacia=document.createElement("div")
+        estrellavacia.classList.add("stars-inner")
+        estrellavacia.style.width=cancion.popularity+"%"
 
         //PADRES E HIJOS de adentro hacia afuera        
-        caption.appendChild(titulo)
-        caption.appendChild(titulo2)
+        estrellallena.appendChild(estrellavacia)
+        item.appendChild(estrellallena)      
         item.appendChild(caption)
+        caption.appendChild(titulo)
         item.appendChild(imagen)
-        item.appendChild(audio)        
+        item.appendChild(audio) 
         fila.appendChild(item)
     })
 }
