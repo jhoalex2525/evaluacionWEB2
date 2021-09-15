@@ -18,11 +18,11 @@
         <nav class="navbar sticky-top navbar-light bg-light mb-5">
             <div class="container-fluid">
                 <div>
-                    <a class="navbar-brand" href="#">Portafolio: Jhonatan Ossa</a>
+                    <a class="navbar-brand" href="/evaluacionWEB2/evaluacionWEB2/index.php">Portafolio: Jhonatan Ossa</a>
                 </div>
                 <div>
-                    <a class="navbar-brand" href="#">Área Personal</a>
-                    <a class="navbar-brand" href="#">Área Profesional</a>
+                    <a class="navbar-brand" href="/evaluacionWEB2/evaluacionWEB2/pages/personal_area.php">Área Personal</a>
+                    <a class="navbar-brand" href="/evaluacionWEB2/evaluacionWEB2/pages/professional_area.php">Área Profesional</a>
                     <a class="navbar-brand" href="#">Artista Favorito</a>
                 </div>
             </div>

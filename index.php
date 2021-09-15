@@ -16,7 +16,7 @@
             <div class="card-body">
               <h5 class="card-title" id="titulo2">Área Profesional</h5>
               <p class="card-text">Aquí podrás encontrar toda la información profesional sobre mi: Estudios, experiencia laboral, entre otros</p>
-              <a href="#" class="btn btn-dark">Ver mas</a>
+              <a href="pages/professional_area.php" class="btn btn-dark">Ver mas</a>
             </div>
           </div>
         </div>        

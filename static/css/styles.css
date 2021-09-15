@@ -3,3 +3,8 @@
     height: 50vh;
     object-fit: scale-down;
 }
+
+/* Añadimos 5px al margen inferior en las barras de progreso */
+.progress{
+    margin-bottom: 5px;
+}
