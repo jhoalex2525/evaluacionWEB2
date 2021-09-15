@@ -7,7 +7,7 @@
               <div class="carousel-caption d-none d-md-block">
                 <h5>Alexander Ryback</h5>
               </div>
-              <img src="../img/foto18.jpg" alt="foto18" id="foto18" class="d-block w-100">            
+              <img src="../img/foto18.jpg" alt="foto18" id="foto18" class="d-block w-50 mx-auto">            
           </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
