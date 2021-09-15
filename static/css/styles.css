@@ -8,3 +8,7 @@
 .progress{
     margin-bottom: 5px;
 }
+
+.row.rowcarousel.img{
+    max-height: 500px;
+}

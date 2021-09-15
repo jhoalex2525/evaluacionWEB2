@@ -55,66 +55,45 @@ function obtenerCanciones(token){
     })    
 }
 
-// function pintarDatos(datos){
-//     let fila=document.getElementById("fila")
-//     datos.tracks.forEach(function(cancion){
-//         console.log(cancion.name)
-//         console.log(cancion.preview_url)
-//         console.log(cancion.album.images[0].url)
-        
-//         // Crear div con js
-//         let columna=document.createElement("div")
-        
-//         //Crear la clase col
-//         columna.classList.add("col")
-        
-//         //Creo un div que sirve de tarjeta
-//         let tarjeta=document.createElement("div")
-//         tarjeta.classList.add("card")
-//         tarjeta.classList.add("h-100")
-        
-//         //Creo una img de tarjeta
-//         let imagen=document.createElement("img")
-//         imagen.classList.add("card-img-top")
-//         imagen.src=cancion.album.images[0].url
-
-//         let audio=document.createElement("audio")
-//         audio.classList.add("w-100")
-//         audio.src=cancion.preview_url
-//         audio.setAttribute("controls","controls")
-        
-//         //PADRES E HIJOS de adentro hacia afuera
-//         tarjeta.appendChild(imagen)
-//         tarjeta.appendChild(audio)
-//         columna.appendChild(tarjeta)
-//         fila.appendChild(columna)
-//     })
-// }
-
 function pintarDatos(datos){
     let fila=document.getElementById("fila")
     datos.tracks.forEach(function(cancion){
         console.log(cancion.name)
         console.log(cancion.preview_url)
+        console.log(cancion.popularity)
         console.log(cancion.album.images[0].url)
         
         // Crear div con js
         let item =document.createElement("div")        
         //Crear la clase carousel-item
         item.classList.add("carousel-item")  
-        
-        //Creo una img de tarjeta
+
+        //Creo una img
         let imagen=document.createElement("img")
         imagen.classList.add("d-block")
         imagen.classList.add("w-100")
         imagen.src=cancion.album.images[0].url
-
+        
+        //Creo un audio
         let audio=document.createElement("audio")
         audio.classList.add("w-100")
         audio.src=cancion.preview_url
         audio.setAttribute("controls","controls")
+
+        // Crear div con js
+        let caption =document.createElement("div")
+        //Crear la clase carousel-caption d-none d-md-block
+        caption.classList.add("carousel-caption")  
+        caption.classList.add("d-none")  
+        caption.classList.add("d-md-block")  
         
-        //PADRES E HIJOS de adentro hacia afuera
+        //Creo un título
+        let titulo=document.createElement("h5")        
+        titulo.textContent=cancion.name
+
+        //PADRES E HIJOS de adentro hacia afuera        
+        caption.appendChild(titulo)
+        item.appendChild(caption)
         item.appendChild(imagen)
         item.appendChild(audio)        
         fila.appendChild(item)
